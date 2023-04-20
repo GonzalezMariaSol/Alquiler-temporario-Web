@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body a:visited , body a:link{
+    color: #664527;
+}
+body{
+    color: #664527;
+}
+header h1{
+    text-align: center;
+    font-size: 8rem;
+}
+header h5{
+    display: flex;
+    justify-content: end;
+    padding-right: 1rem;
+    width: 5rem;
+    margin-left: 37rem;
+}
+header h5 :hover{
+    color: #664527;
+}
+nav{
+    background-color: rgb(247, 247, 247);
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    position: sticky;
+    z-index: 1;
+    top:0;
+}
+.locationInfo{
+    background-color: #F3E3D3;
+    height: 22rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.neighborhood :first-child{
+    font-size: 40px;
+    width: 20rem;
+    margin-left: 18rem;
+    margin-top: 3rem;
+}
+.neighborhood :last-child{
+    width: 35rem;
+    line-height: 25px;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+.mapPic{
+    width: 26rem;
+    margin-right: 3rem;
+}
+.mapPic img{
+    width: 100%;
+    height: 100%;
+}
+.apartmentPictures{
+    background-color: red;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+}
+.apartmentPictures ul{
+    background-color: blue;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.carruselPic{
+    display: flex;
+    gap: 110px;
+    overflow: auto;
+}
+.carruselPic img{
+    background-color: yellow;
+    width: 20rem;
+    height: 25rem;
+    margin-top: 2rem;
+    margin-left: 1.3rem;
+    object-fit: contain;
+}
+#lastPic {
+    margin-right: 1.3rem;
+}
+.apartmentPictures p{
+    background-color: greenyellow;
+    width: 20rem;
+    margin-left: 1.3rem;
+    text-align: center;
+}
+
