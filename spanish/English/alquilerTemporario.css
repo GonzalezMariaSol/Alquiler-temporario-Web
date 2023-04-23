@@ -43,7 +43,7 @@ nav{
 }
 .neighborhood :first-child{
     font-size: 40px;
-    width: 23rem;
+    width: 20rem;
     margin-left: 18rem;
     margin-top: 5rem;
 }
@@ -180,5 +180,4 @@ footer p{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
 }
